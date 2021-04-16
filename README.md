@@ -1,6 +1,6 @@
-# Programming Journey
+# Galactic Calculator
 
-####  A Project Implementing Basic HTML and CSS
+####  A Project With Jest and Webpack
 
 #### By _**Sammai Gutierrez**_
 
@@ -11,12 +11,13 @@
 * _HTML_
 * _CSS_
 * _GitBash_
+* _JavaScript_
+* _Webpack_
+* _Jest_
 
 ## Description
 
-_In brief, this project shows the utilization of basic structure and implementation of HTML and CSS._
-
-_You may access this project at https://sammaicodes.github.io/First-Friday-Project/_
+_In brief, this project shows the utilization of Jest and webpack as well as classes in objects._
 
 ## Setup/Installation Requirements
 
@@ -37,5 +38,3 @@ _You may access this project at https://sammaicodes.github.io/First-Friday-Proje
 ## License
 
 _MIT &copy; 2021 Sammai Gutierrez_
-
-## Contact Information
