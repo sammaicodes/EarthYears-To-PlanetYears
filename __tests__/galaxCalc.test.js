@@ -7,8 +7,8 @@ describe('Galaxy', () => {
     expect(user.usersAge).toEqual(7);
   })
   test("Should create a function that calculates age in different planet years", () => {
-    let user = new Galaxy();
-    expect(user.galacticAgeCalc()).toEqual(true);
+    let user = new Galaxy("Mercury", 7);
+   
   })
   
 });
