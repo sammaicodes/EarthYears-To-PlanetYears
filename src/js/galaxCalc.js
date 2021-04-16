@@ -42,4 +42,8 @@ export default class Galaxy {
       return yourNewAge;
     } 
   }
+
+  yearsLeftOnEachPlanet(){
+    
+  }
 }
