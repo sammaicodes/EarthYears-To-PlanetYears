@@ -24,6 +24,12 @@ describe('Galaxy', () => {
     expect(yearsInChoicePlanet).toEqual(7/1.88);
   })
 
+  test("Should create a function that coverts a person's age in Earth years to Jupiter years.", () => {
+    let user = new Galaxy("Jupiter", 7);
+    const yearsInChoicePlanet = user.jupiterAgeCalc(); 
+    expect(yearsInChoicePlanet).toEqual(7/11.86);
+  })
+
 
   // test("Should create a function that calculates age in different planet years", () => {
   //   //Should be one of the latest test

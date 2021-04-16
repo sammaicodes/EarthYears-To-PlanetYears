@@ -24,6 +24,16 @@ export default class Galaxy {
   }
 
   marsAgeCalc() {
-    
+    let EarthYears = parseFloat(this.usersAge);
+    let planetName = this.planetName
+    let yourNewAge;
+    while(planetName === "Mars"){
+      yourNewAge = EarthYears/1.88;
+      return yourNewAge;
+    } 
+  }
+
+  jupiterAgeCalc() {
+
   }
 }
