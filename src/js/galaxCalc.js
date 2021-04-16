@@ -34,6 +34,12 @@ export default class Galaxy {
   }
 
   jupiterAgeCalc() {
-
+    let EarthYears = parseFloat(this.usersAge);
+    let planetName = this.planetName
+    let yourNewAge;
+    while(planetName === "Jupiter"){
+      yourNewAge = EarthYears/11.86;
+      return yourNewAge;
+    } 
   }
 }
