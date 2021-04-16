@@ -49,4 +49,8 @@ export default class Galaxy {
       return mercuryAvgLifeExpectancy + this.mercuryAgeCalc() + 20
     }
   }
+
+  yearsLeftOnEachPlanet(){
+    
+  }
 }
