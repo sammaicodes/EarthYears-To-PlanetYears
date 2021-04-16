@@ -4,7 +4,7 @@ export default class Galaxy {
     this.usersAge = usersAge
   }
 
-  galacticAgeCalc() {
+  mercuryAgeCalc() {
     let EarthYears = parseFloat(this.usersAge);
     let planetName = this.planetName
     let yourNewAge;
@@ -12,6 +12,5 @@ export default class Galaxy {
       yourNewAge = EarthYears/0.24;
       return yourNewAge;
     }
-    
   }
 }
