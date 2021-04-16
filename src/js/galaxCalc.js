@@ -43,7 +43,10 @@ export default class Galaxy {
     } 
   }
 
-  yearsLeftOnEachPlanet(){
-    
+  yearsLeftOnPlanetMercury(peachesPreference, blueberriesPreference){
+    let mercuryAvgLifeExpectancy = parseFloat(73/0.24)
+    while(peachesPreference === "yes" && blueberriesPreference === "yes"){
+      return mercuryAvgLifeExpectancy + this.mercuryAgeCalc() + 20
+    }
   }
 }

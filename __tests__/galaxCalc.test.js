@@ -32,8 +32,10 @@ describe('Galaxy', () => {
 
   test("Should determine the user's left over years of life on planet Mercury.", () => {
     let mercuryExpectancy = new Galaxy("Mercury", 7);
-    const lifeExpectancy = mercuryExpectancy.yearsLeftOnEachPlanet(activityLevel, blueberriesPreference); 
-    expect(lifeExpectancy).toEqual((7/0.24)+5+15);
+    let peachesPreference = "yes"
+    let blueberriesPreference = "yes"
+    const lifeExpectancy = mercuryExpectancy.yearsLeftOnPlanetMercury(peachesPreference, blueberriesPreference); 
+    expect(lifeExpectancy).toEqual((73/0.24)+(7/0.24)+20);
   })
 
   // test("Should determine the user's left over years of life on each planet.", () => {
