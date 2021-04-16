@@ -14,6 +14,12 @@ export default class Galaxy {
     }
   }
   venusAgeCalc() {
-    
+    let EarthYears = parseFloat(this.usersAge);
+    let planetName = this.planetName
+    let yourNewAge;
+    while(planetName === "Venus"){
+      yourNewAge = EarthYears/0.62;
+      return yourNewAge;
+    } 
   }
 }
