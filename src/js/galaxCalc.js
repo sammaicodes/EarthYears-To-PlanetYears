@@ -5,7 +5,7 @@ export default class Galaxy {
   }
 
   galacticAgeCalc() {
-    
+    return true 
   }
 
 };
