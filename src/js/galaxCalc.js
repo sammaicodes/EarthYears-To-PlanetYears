@@ -8,12 +8,10 @@ export default class Galaxy {
     let EarthYears = parseFloat(this.usersAge);
     let planetName = this.planetName
     let yourNewAge;
-    if (planetName === "Mercury"){
+    while(planetName === "Mercury"){
       yourNewAge = EarthYears/0.24;
-    }else{
-      yourNewAge = "This logic is not yet working!";
+      return yourNewAge;
     }
-    return yourNewAge;
+    
   }
-
-};
+}
