@@ -30,14 +30,20 @@ describe('Galaxy', () => {
     expect(yearsInChoicePlanet).toEqual(7/11.86);
   })
 
-  test("Should determine the user's left over years of life on each planet.", () => {
+  test("Should determine the user's left over years of life on planet Mercury.", () => {
     let mercuryExpectancy = new Galaxy("Mercury", 7);
-    let venusExpectancy = new Galaxy("Venus", 7);
-    let marsExpectancy = new Galaxy("Mars", 7);
-    let jupiterExpectancy = new Galaxy("Jupiter", 7);
-    const lifeExpectancy = ; 
-    expect(yearsInChoicePlanet).toEqual(7/11.86);
+    const lifeExpectancy = mercuryExpectancy.yearsLeftOnEachPlanet(activityLevel, blueberriesPreference); 
+    expect(lifeExpectancy).toEqual((7/0.24)+5+15);
   })
+
+  // test("Should determine the user's left over years of life on each planet.", () => {
+  //   let mercuryExpectancy = new Galaxy("Mercury", 7);
+  //   let venusExpectancy = new Galaxy("Venus", 7);
+  //   let marsExpectancy = new Galaxy("Mars", 7);
+  //   let jupiterExpectancy = new Galaxy("Jupiter", 7);
+  //   const lifeExpectancy = mercuryExpectancy.yearsLeftOnEachPlanet(activityLevel, blueberriesPreference); 
+  //   expect(lifeExpectancy).toEqual();
+  // })
 
 
   // test("Should create a function that calculates age in different planet years", () => {
