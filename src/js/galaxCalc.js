@@ -44,6 +44,8 @@ export default class Galaxy {
   }
 
   yearsLeftOnPlanetMercury(){
- 
+    let mercuryAvgLifeExpectancy = parseFloat(73/0.24);
+    let yearsLeftInMercury = mercuryAvgLifeExpectancy - this.mercuryAgeCalc();
+      return yearsLeftInMercury;
   }
 }
