@@ -49,5 +49,9 @@ export default class Galaxy {
       return yearsLeftInMercury;
   }
 
-  yearsPassedLifeExp(){}
+  yearsPassedLifeExp(){
+    let mercuryAvgLifeExpectancy = parseFloat(73/0.24);
+    let yearsPassed = Math.abs(mercuryAvgLifeExpectancy - this.mercuryAgeCalc()); 
+      return yearsPassed;
+  }
 }
