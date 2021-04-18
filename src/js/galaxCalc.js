@@ -85,4 +85,6 @@ export default class Galaxy {
       return yearsLeftInJupiter;
   }
 
+  yearsPassedJupLifeExp(){}
+
 }
