@@ -62,6 +62,8 @@ export default class Galaxy {
   }
 
   yearsPassedVenLifeExp(){
-    
+    let venusAvgLifeExpectancy = parseFloat(73/0.62);
+    let yearsPassed = Math.abs(venusAvgLifeExpectancy - this.venusAgeCalc()); 
+      return yearsPassed;
   }
 }
