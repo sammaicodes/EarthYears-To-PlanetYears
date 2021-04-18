@@ -79,4 +79,6 @@ export default class Galaxy {
       return yearsPassed;
   }
 
+  yearsLeftOnPlanetJupiter(){}
+
 }
