@@ -37,9 +37,9 @@ describe('Galaxy', () => {
     expect(mercuryExpectancy).toEqual(yearsLeft);
   })
 
-  test("Should determine the years a user has lived passed its life expectancy, should this be the case.", () => {
+  test("Should determine the years a user has lived passed its Mercury life expectancy, should this be the case.", () => {
     let mercury = new Galaxy("Mercury", 75);
-    const mercuryExpectancy = mercury.yearsPassedLifeExp(); 
+    const mercuryExpectancy = mercury.yearsPassedMercLifeExp(); 
     expect(mercuryExpectancy).toEqual(8.333333333333314);
   })
 
@@ -48,6 +48,12 @@ describe('Galaxy', () => {
     const venusExpectancy = venus.yearsLeftOnPlanetVenus();
     let yearsLeft = ((73/0.62)-(venus.venusAgeCalc())) 
     expect(venusExpectancy).toEqual(yearsLeft);
+  })
+
+  test("Should determine the years a user has lived passed its Venus life expectancy, should this be the case.", () => {
+    let venus = new Galaxy("Venus", 75);
+    const venusExpectancy = venus.yearsPassedVenLifeExp(); 
+    expect(venusExpectancy).toEqual(3.225806451612897);
   })
   
 });
