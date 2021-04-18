@@ -46,14 +46,18 @@ export default class Galaxy {
   yearsLeftOnPlanetMercury(){
     let mercuryAvgLifeExpectancy = parseFloat(73/0.24);
     let yearsLeftInMercury = mercuryAvgLifeExpectancy - this.mercuryAgeCalc();
-      return yearsLeftInMercury;
+    return yearsLeftInMercury;
   }
 
   yearsPassedLifeExp(){
     let mercuryAvgLifeExpectancy = parseFloat(73/0.24);
     let yearsPassed = Math.abs(mercuryAvgLifeExpectancy - this.mercuryAgeCalc()); 
-      return yearsPassed;
+    return yearsPassed;
   }
 
-  yearsLeftOnPlanetVenus(){}
+  yearsLeftOnPlanetVenus(){
+    let venusAvgLifeExpectancy = parseFloat(73/0.62);
+    let yearsLeftInVenus = venusAvgLifeExpectancy - this.venusAgeCalc();
+    return yearsLeftInVenus;
+  }
 }
