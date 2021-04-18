@@ -79,6 +79,10 @@ export default class Galaxy {
       return yearsPassed;
   }
 
-  yearsLeftOnPlanetJupiter(){}
+  yearsLeftOnPlanetJupiter(){
+    let jupiterAvgLifeExpectancy = parseFloat(73/11.86);
+    let yearsLeftInJupiter = jupiterAvgLifeExpectancy - this.jupiterAgeCalc();
+      return yearsLeftInJupiter;
+  }
 
 }
