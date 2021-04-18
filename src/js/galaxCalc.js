@@ -72,4 +72,7 @@ export default class Galaxy {
     let yearsLeftInMars = marsAvgLifeExpectancy - this.marsAgeCalc();
       return yearsLeftInMars;
   }
+
+  yearsPassedMarLifeExp(){}
+
 }

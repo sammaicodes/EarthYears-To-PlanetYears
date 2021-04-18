@@ -62,5 +62,11 @@ describe('Galaxy', () => {
     let yearsLeft = ((73/1.88)-(mars.marsAgeCalc())) 
     expect(marsExpectancy).toEqual(yearsLeft);
   })
+
+  test("Should determine the years a user has lived passed its Mars life expectancy, should this be the case.", () => {
+    let mars = new Galaxy("Mars", 75);
+    const marsExpectancy = mars.yearsPassedMarLifeExp(); 
+    expect(marsExpectancy).toEqual(1.0638297872340416);
+  })
   
 });
