@@ -66,4 +66,6 @@ export default class Galaxy {
     let yearsPassed = Math.abs(venusAvgLifeExpectancy - this.venusAgeCalc()); 
       return yearsPassed;
   }
+
+  yearsLeftOnPlanetMars(){}
 }
