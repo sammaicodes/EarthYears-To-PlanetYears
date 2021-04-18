@@ -67,5 +67,9 @@ export default class Galaxy {
       return yearsPassed;
   }
 
-  yearsLeftOnPlanetMars(){}
+  yearsLeftOnPlanetMars(){
+    let marsAvgLifeExpectancy = parseFloat(73/1.88);
+    let yearsLeftInMars = marsAvgLifeExpectancy - this.marsAgeCalc();
+      return yearsLeftInMars;
+  }
 }
