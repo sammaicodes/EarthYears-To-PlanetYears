@@ -19,11 +19,20 @@
 
 _In brief, this project shows the utilization of Jest and webpack as well as classes in objects._
 
-## Setup/Installation Requirements
+## Pre-requisites
 
+* _Nodejs_
+* _VS Code or another text editor of choice._
 * _Internet browser_
-* _A code editor such as VS Code._
 * _An account with GitHub_
+
+## Installation Insructions
+
+* _Clone the repository with command `$ git clone gitHub-URL-repository`_
+* _Open the repository on your computer in your text editor._
+* _Run the command `$ npm install`_
+* _Run another command `$npm run build`_
+* _Last, run the command `$ npm run start`_
 
 ### Steps to open project:
 

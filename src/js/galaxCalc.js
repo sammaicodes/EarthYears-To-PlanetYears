@@ -88,7 +88,7 @@ export default class Galaxy {
   yearsPassedJupLifeExp(){
     let jupiterAvgLifeExpectancy = parseFloat(73/11.86);
     let yearsPassed = Math.abs(jupiterAvgLifeExpectancy - this.jupiterAgeCalc()); 
-      return yearsPassed;
+      return yearsPassed; 
   }
 
 }
